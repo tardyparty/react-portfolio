@@ -8,6 +8,11 @@
 
 a {
     text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #f049da;
 }
 
 .sidebar {
@@ -26,18 +31,30 @@ a {
     margin: 5vh 7vh;
 }
 
+.linkicon h3 {
+    color: #f049da;
+}
+
 .main {
     background: #3b3d39;
     flex: 5;
 
 }
 
+.projectdiv {
+    max-height: 100vh;
+    overflow: scroll;
+}
+
 .project {
     position: relative;
-    width: 90%;
+    width: 70%;
     height: 300px;
     background: black;
     margin: 5% auto;
+    color: white;
+    padding: 5%;
+    font-size: 28pt;
 }
 
 .bio {
@@ -46,7 +63,7 @@ a {
 }
 
 .bioFunction {
-    width: 80%;
+    width: 70%;
     margin: 5vh auto;
     color: white;
     font-size: 20pt;
