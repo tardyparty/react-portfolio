@@ -1,0 +1,6 @@
+.sidebar {
+    background: white;
+    min-height: 100vh;
+    flex: 1;
+    /* flex box for 1/6 of page */
+}

@@ -1,38 +1,89 @@
 .App {
-  text-align: center;
+    background: #3b3d39;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    font-family: avenir;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+    text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sidebar {
+    background: white;
+    flex: 1;
+    position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.icons {
+    margin: 0;
+    position: absolute;
+    top: 30%;
 }
 
-.App-link {
-  color: #61dafb;
+.linkicon {
+    margin: 5vh 7vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main {
+    background: #3b3d39;
+    flex: 5;
+
+}
+
+.project {
+    position: relative;
+    width: 90%;
+    height: 300px;
+    background: black;
+    margin: 5% auto;
+}
+
+.bio {
+    background: #2b2d29;
+    flex: 3;
+}
+
+.bioFunction {
+    width: 80%;
+    margin: 5vh auto;
+    color: white;
+    font-size: 20pt;
+}
+
+em {
+    font-style: normal;
+}
+
+.name {
+    font-size: 34pt;
+}
+
+.title {
+    font-size: 28pt;
+}
+
+.blue {
+    color: #73e3e4;
+}
+
+.green {
+    color: #b6e261;
+}
+
+.pink {
+    color: #f049da;
+}
+
+.yellow {
+    color: #efc70f;
+}
+
+.orange {
+    color: #ff8f21;
+}
+
+.purple {
+    color: #ce80f7;
 }
