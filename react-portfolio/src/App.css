@@ -6,12 +6,13 @@
     font-family: avenir;
 }
 
-a {
+.icons a {
     text-decoration: none;
     color: black;
 }
 
-a:hover {
+.icons a:hover {
+    text-decoration: none;
     color: #f049da;
 }
 
@@ -22,23 +23,34 @@ a:hover {
 }
 
 .icons {
-    margin: 0;
+    margin: auto;
+    width: 100%;
     position: absolute;
-    top: 30%;
-}
-
-.linkicon {
-    margin: 5vh 7vh;
+    top: 35%;
 }
 
 .linkicon h3 {
     color: #f049da;
 }
 
+.iconpair {
+    margin-top: 10px;
+}
+
+.iconpair:hover {
+    color: #f049da;
+}
+
 .main {
     background: #3b3d39;
     flex: 5;
+}
 
+.projectsTitle {
+    font-size: 34pt;
+    color: white;
+    margin: 4% auto; 
+    width: 80%;
 }
 
 .projectdiv {
@@ -48,25 +60,43 @@ a:hover {
 
 .project {
     position: relative;
-    width: 70%;
-    height: 300px;
+    width: 90%;
+    height: 350px;
     background: black;
-    margin: 5% auto;
+    margin: 4% auto;
     color: white;
-    padding: 5%;
+    padding: 3%;
     font-size: 28pt;
+}
+
+.projectLinks {
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+}
+
+.linkClass {
+    font-size: 18pt;
+    text-decoration: none;
+}
+
+.linkClass:hover {
+    text-decoration: none;
+    color: #f049da;
 }
 
 .bio {
     background: #2b2d29;
     flex: 3;
+    max-height: 100vh;
+    overflow: scroll;
 }
 
 .bioFunction {
     width: 70%;
     margin: 5vh auto;
     color: white;
-    font-size: 20pt;
+    font-size: 18pt;
 }
 
 em {
@@ -78,7 +108,7 @@ em {
 }
 
 .title {
-    font-size: 28pt;
+    font-size: 24pt;
 }
 
 .blue {

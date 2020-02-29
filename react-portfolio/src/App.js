@@ -2,7 +2,7 @@ import React from 'react';
 import './app.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFile } from "@fortawesome/free-solid-svg-icons";
+import { faSmile } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 
 
@@ -12,32 +12,64 @@ function App() {
         <div className="sidebar">
           <div className="icons">
             <div className="linkicon">
+              <div className="iconpair text-center">
                 <a href="https://www.linkedin.com/in/davidtardy/"
-                      target="_blank"> 
+                      target="_blank">
                   <FontAwesomeIcon icon={faLinkedin} size="3x"/>
+                </a>
+              </div>
+              <div className="iconpair text-center">
+                <a href="https://www.linkedin.com/in/davidtardy/"
+                      target="_blank">
                   <h3> linkedin </h3>
                 </a>
               </div>
+            </div>
               <div className="linkicon">
+              <div className="iconpair text-center">
                 <a href="https://github.com/tardyparty"
                   target="_blank">
                   <FontAwesomeIcon icon={faGithubSquare} size="3x"/>
+                </a>
+              </div>
+              <div className="iconpair text-center">
+                <a href="https://github.com/tardyparty"
+                  target="_blank">
                   <h3> github </h3>
                 </a>
               </div>
-              <div className="linkicon">
-                <a href="https://docs.google.com/document/d/e/2PACX-1vTEx96y-lm3S0Xy5I7NuxJSDUuZOI26-ld1ESDcA8eOtKTmE3acX6eP-oSnWt29ltDIyIcDMA4zNO8J/pub"
+            </div>
+            <div className="linkicon">
+              <div className="iconpair text-center">
+                <a href="https://gdoc.pub/doc/1VcD9YALwryRVHumeN0URlVQ1MKuuWwN3CFqE-Bg5VeM#?usp=sharing"
                   target="_blank">
-                  <FontAwesomeIcon icon={faFile} size="3x"/>
+                  <FontAwesomeIcon icon={faSmile} size="3x"/>
+                </a>
+              </div>
+              <div className="iconpair text-center">
+                <a href="https://gdoc.pub/doc/1VcD9YALwryRVHumeN0URlVQ1MKuuWwN3CFqE-Bg5VeM#?usp=sharing"
+                  target="_blank">
                   <h3> resume </h3>
                 </a>
               </div>
+            </div>
           </div>
         </div>
         <div className="main">
           <div className="projectdiv">
+            <div className="projectsTitle text-center">Projects</div>
             <div className="project">
               Book Club
+              <div className="projectLinks">
+                <a href="" target="_blank" className="linkClass">
+                  <p><em className="yellow">{"{ "}</em><em className="blue">project</em><em className="yellow">{" }"}</em></p>
+                </a>
+                <a href="https://github.com/tardyparty/bookClubApp" 
+                  target="_blank"
+                  className="linkClass">
+                  <p><em className="yellow">{"{ "}</em><em className="green">github</em><em className="yellow">{" }"}</em></p>
+                </a>
+              </div>
             </div>
             <div className="project">
               Happy Camper
