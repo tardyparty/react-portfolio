@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/tardyparty/react-portfolio/static/css/main.5928559d.chunk.css",
+    "main.js": "/tardyparty/react-portfolio/static/js/main.2fa9bdf1.chunk.js",
+    "main.js.map": "/tardyparty/react-portfolio/static/js/main.2fa9bdf1.chunk.js.map",
+    "runtime-main.js": "/tardyparty/react-portfolio/static/js/runtime-main.8b07b7fa.js",
+    "runtime-main.js.map": "/tardyparty/react-portfolio/static/js/runtime-main.8b07b7fa.js.map",
+    "static/css/2.aa78a421.chunk.css": "/tardyparty/react-portfolio/static/css/2.aa78a421.chunk.css",
+    "static/js/2.cd77d2bc.chunk.js": "/tardyparty/react-portfolio/static/js/2.cd77d2bc.chunk.js",
+    "static/js/2.cd77d2bc.chunk.js.map": "/tardyparty/react-portfolio/static/js/2.cd77d2bc.chunk.js.map",
+    "index.html": "/tardyparty/react-portfolio/index.html",
+    "precache-manifest.785e4e91ec738b93ba3cf47c8e13a5c3.js": "/tardyparty/react-portfolio/precache-manifest.785e4e91ec738b93ba3cf47c8e13a5c3.js",
+    "service-worker.js": "/tardyparty/react-portfolio/service-worker.js",
+    "static/css/2.aa78a421.chunk.css.map": "/tardyparty/react-portfolio/static/css/2.aa78a421.chunk.css.map",
+    "static/css/main.5928559d.chunk.css.map": "/tardyparty/react-portfolio/static/css/main.5928559d.chunk.css.map",
+    "static/js/2.cd77d2bc.chunk.js.LICENSE": "/tardyparty/react-portfolio/static/js/2.cd77d2bc.chunk.js.LICENSE",
+    "static/media/font-awesome.min.css": "/tardyparty/react-portfolio/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b07b7fa.js",
+    "static/css/2.aa78a421.chunk.css",
+    "static/js/2.cd77d2bc.chunk.js",
+    "static/css/main.5928559d.chunk.css",
+    "static/js/main.2fa9bdf1.chunk.js"
+  ]
+}
