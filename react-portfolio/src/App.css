@@ -6,6 +6,30 @@
     font-family: avenir;
 }
 
+.blue {
+    color: #73e3e4;
+}
+
+.green {
+    color: #b6e261;
+}
+
+.pink {
+    color: #f049da;
+}
+
+.yellow {
+    color: #efc70f;
+}
+
+.orange {
+    color: #ff8f21;
+}
+
+.purple {
+    color: #ce80f7;
+}
+
 .icons a {
     text-decoration: none;
     color: black;
@@ -82,6 +106,10 @@
 
 .linkClass:hover {
     text-decoration: none;
+}
+
+.linkClass p .blue:hover,
+.linkClass p .green:hover {
     color: #f049da;
 }
 
@@ -111,26 +139,23 @@ em {
     font-size: 24pt;
 }
 
-.blue {
-    color: #73e3e4;
-}
 
-.green {
-    color: #b6e261;
-}
+@media only screen and (max-width: 600px) {
+    .App {
+        display: flexbox;
+    }
 
-.pink {
-    color: #f049da;
-}
+    .bio {
+        order: 1;
+        margin: 10px auto;
+    }
 
-.yellow {
-    color: #efc70f;
-}
+    .sidebar {
+        order: 2;
+        height: 10vh;
+    }
 
-.orange {
-    color: #ff8f21;
-}
-
-.purple {
-    color: #ce80f7;
+    .main {
+        order: 3;
+    }
 }
