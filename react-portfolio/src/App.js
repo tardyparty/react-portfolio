@@ -136,6 +136,16 @@ function App() {
               <em className="yellow">{"}"}</em>;
             </p>
           </div>
+          <div className="bioMobile">
+          <p className="nameMobile text-center">David Tardy</p>
+            <p className="pMobile">
+              <em className="blue titleMobile">fullstack</em>.<em className="green titleMobile">developer</em>
+              <em className="pink titleMobile">()</em> <em className="yellow titleMobile"> {"{"} </em> <br></br>
+              &emsp;focused on developing new <br></br>
+              &emsp;skills in challenging environments. <br></br>
+              <em className="yellow titleMobile"> {"}"} </em> ;
+            </p>
+          </div>
         </div>
       </div>
     );

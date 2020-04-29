@@ -142,20 +142,59 @@ em {
 
 @media only screen and (max-width: 600px) {
     .App {
-        display: flexbox;
+        /* display: flexbox; */
+        flex-direction: column;
     }
 
     .bio {
-        order: 1;
-        margin: 10px auto;
+        order: 2;
+        /* margin: 10px auto; */
+    }
+
+    .bioFunction {
+        display: none;
+    }
+
+    .bioMobile {
+        display: block;
+        color: white;
+        font-size: 14pt;
+    }
+
+    .titleMobile {
+        font-size: 18pt;
+    }
+
+    .nameMobile {
+        font-size: 24pt;
+        margin-top: 5px;
+    }
+
+    .pMobile {
+        margin: 0 auto;
     }
 
     .sidebar {
-        order: 2;
-        height: 10vh;
+        order: 1;
+        min-height: 12vh;
+    }
+
+    .icons {
+        display: flex;
+        /* margin: 0 0; */
+        top: 10%;
+    }
+
+    .iconpair {
+        flex: 1;
+        margin: 0 17px;
     }
 
     .main {
         order: 3;
+    }
+
+    .projectdiv {
+        overflow: auto;
     }
 }
