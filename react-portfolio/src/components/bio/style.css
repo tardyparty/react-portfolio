@@ -1,0 +1,45 @@
+.bioMobile {
+    display: none;
+}
+
+.bio {
+    background: #2b2d29;
+    flex: 3;
+    max-height: 100vh;
+    overflow: scroll;
+}
+
+.bioFunction {
+    width: 70%;
+    margin: 5vh auto;
+    color: white;
+    font-size: 18pt;
+}
+
+@media only screen and (max-width: 600px) {
+    
+
+    .bioFunction {
+        display: none;
+    }
+
+    .bioMobile {
+        display: block;
+        color: white;
+    }
+
+    .titleMobile {
+        font-size: 18px;
+    }
+
+    .nameMobile {
+        font-size: 30px;
+        margin-top: 5px;
+    }
+
+    .pMobile {
+        width: 70vw;
+        margin-left: 15vw;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,53 @@
+.main {
+    background: #3b3d39;
+    flex: 5;
+}
+
+.projectsTitle {
+    font-size: 34pt;
+    color: white;
+    margin: 4% auto; 
+    width: 80%;
+}
+
+.projectdiv {
+    max-height: 100vh;
+    overflow: scroll;
+}
+
+.project {
+    position: relative;
+    width: 90%;
+    height: 350px;
+    background: black;
+    margin: 4% auto;
+    color: white;
+    padding: 3%;
+    font-size: 28pt;
+}
+
+.projectLinks {
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+}
+
+.linkClass {
+    font-size: 18pt;
+    text-decoration: none;
+}
+
+.linkClass:hover {
+    text-decoration: none;
+}
+
+.linkClass p .blue:hover,
+.linkClass p .green:hover {
+    color: #f049da;
+}
+
+@media only screen and (max-width: 600px) {
+    .projectdiv {
+        overflow: auto;
+    }
+}

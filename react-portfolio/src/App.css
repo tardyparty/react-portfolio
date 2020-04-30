@@ -35,103 +35,6 @@
     color: #ce80f7;
 }
 
-.icons a {
-    text-decoration: none;
-    color: black;
-}
-
-.icons a:hover {
-    text-decoration: none;
-    color: #f049da;
-}
-
-.sidebar {
-    background: white;
-    flex: 1;
-    position: relative;
-}
-
-.icons {
-    margin: auto;
-    width: 100%;
-    position: absolute;
-    top: 35%;
-}
-
-.linkicon h3 {
-    color: #f049da;
-}
-
-.iconpair {
-    margin-top: 10px;
-}
-
-.iconpair:hover {
-    color: #f049da;
-}
-
-.main {
-    background: #3b3d39;
-    flex: 5;
-}
-
-.projectsTitle {
-    font-size: 34pt;
-    color: white;
-    margin: 4% auto; 
-    width: 80%;
-}
-
-.projectdiv {
-    max-height: 100vh;
-    overflow: scroll;
-}
-
-.project {
-    position: relative;
-    width: 90%;
-    height: 350px;
-    background: black;
-    margin: 4% auto;
-    color: white;
-    padding: 3%;
-    font-size: 28pt;
-}
-
-.projectLinks {
-    position: absolute;
-    bottom: 0;
-    right: 2%;
-}
-
-.linkClass {
-    font-size: 18pt;
-    text-decoration: none;
-}
-
-.linkClass:hover {
-    text-decoration: none;
-}
-
-.linkClass p .blue:hover,
-.linkClass p .green:hover {
-    color: #f049da;
-}
-
-.bio {
-    background: #2b2d29;
-    flex: 3;
-    max-height: 100vh;
-    overflow: scroll;
-}
-
-.bioFunction {
-    width: 70%;
-    margin: 5vh auto;
-    color: white;
-    font-size: 18pt;
-}
-
 em {
     font-style: normal;
 }
@@ -150,73 +53,15 @@ em {
         flex-direction: column;
     }
 
+    .sidebar {
+        order: 1;
+    }
+
     .bio {
         order: 2;
     }
 
-    .bioFunction {
-        display: none;
-    }
-
-    .bioMobile {
-        display: block;
-        color: white;
-    }
-
-    .titleMobile {
-        font-size: 18px;
-    }
-
-    .nameMobile {
-        font-size: 30px;
-        margin-top: 5px;
-    }
-
-    .pMobile {
-        widows: 70vw;
-        margin-left: 10vw;
-        font-size: 14px;
-    }
-
-    .sidebar {
-        order: 1;
-        max-height: 10vh;
-    }
-
-    .icons {
-        display: none;
-    }
-
-    .iconsMobile {
-        display: flex;
-        margin: 2vh auto;
-        /* top: 50%; */
-    }
-
-    .iconsMobile a {
-        text-decoration: none;
-        color: black;
-    }
-    
-    .iconsMobile a:hover {
-        text-decoration: none;
-        color: #f049da;
-    }
-
-    .iconpair {
-        flex: 1;
-        margin: 0 30px;
-    }
-
-    .iconpair h3 {
-        font-size: 18px;
-    }
-
     .main {
         order: 3;
-    }
-
-    .projectdiv {
-        overflow: auto;
-    }
+    }    
 }

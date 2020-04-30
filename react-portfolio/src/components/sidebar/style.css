@@ -1,6 +1,73 @@
+.iconsMobile {
+    display: none;
+}
+
+.icons a {
+    text-decoration: none;
+    color: black;
+}
+
+.icons a:hover {
+    text-decoration: none;
+    color: #f049da;
+}
+
 .sidebar {
     background: white;
-    min-height: 100vh;
     flex: 1;
-    /* flex box for 1/6 of page */
+    position: relative;
+}
+
+.icons {
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    top: 35%;
+}
+
+.linkicon h3 {
+    color: #f049da;
+}
+
+.iconpair {
+    margin-top: 10px;
+}
+
+.iconpair:hover {
+    color: #f049da;
+}
+
+@media only screen and (max-width: 600px) {
+    .sidebar {
+        max-height: 10vh;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .iconsMobile {
+        display: flex;
+        margin: 2vh auto;
+        /* top: 50%; */
+    }
+
+    .iconsMobile a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .iconsMobile a:hover {
+        text-decoration: none;
+        color: #f049da;
+    }
+
+    .iconpair {
+        flex: 1;
+        margin: 0 30px;
+    }
+
+    .iconpair h3 {
+        font-size: 18px;
+    }
 }
