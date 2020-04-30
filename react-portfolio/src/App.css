@@ -6,6 +6,11 @@
     font-family: avenir;
 }
 
+.bioMobile,
+.iconsMobile {
+    display: none;
+}
+
 .blue {
     color: #73e3e4;
 }
@@ -142,13 +147,11 @@ em {
 
 @media only screen and (max-width: 600px) {
     .App {
-        /* display: flexbox; */
         flex-direction: column;
     }
 
     .bio {
         order: 2;
-        /* margin: 10px auto; */
     }
 
     .bioFunction {
@@ -158,36 +161,55 @@ em {
     .bioMobile {
         display: block;
         color: white;
-        font-size: 14pt;
     }
 
     .titleMobile {
-        font-size: 18pt;
+        font-size: 18px;
     }
 
     .nameMobile {
-        font-size: 24pt;
+        font-size: 30px;
         margin-top: 5px;
     }
 
     .pMobile {
-        margin: 0 auto;
+        widows: 70vw;
+        margin-left: 10vw;
+        font-size: 14px;
     }
 
     .sidebar {
         order: 1;
-        min-height: 12vh;
+        max-height: 10vh;
     }
 
     .icons {
+        display: none;
+    }
+
+    .iconsMobile {
         display: flex;
-        /* margin: 0 0; */
-        top: 10%;
+        margin: 2vh auto;
+        /* top: 50%; */
+    }
+
+    .iconsMobile a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .iconsMobile a:hover {
+        text-decoration: none;
+        color: #f049da;
     }
 
     .iconpair {
         flex: 1;
-        margin: 0 17px;
+        margin: 0 30px;
+    }
+
+    .iconpair h3 {
+        font-size: 18px;
     }
 
     .main {

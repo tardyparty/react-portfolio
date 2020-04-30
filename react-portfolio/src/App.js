@@ -54,6 +54,50 @@ function App() {
               </div>
             </div>
           </div>
+          <div className="iconsMobile">
+            <div className="linkicon">
+              <div className="iconpair text-center">
+                <a href="https://www.linkedin.com/in/davidtardy/"
+                      target="_blank">
+                  <FontAwesomeIcon icon={faLinkedin} size="2x"/>
+                </a>
+              </div>
+              <div className="iconpair text-center">
+                <a href="https://www.linkedin.com/in/davidtardy/"
+                      target="_blank">
+                  <h3> linkedin </h3>
+                </a>
+              </div>
+            </div>
+              <div className="linkicon">
+              <div className="iconpair text-center">
+                <a href="https://github.com/tardyparty"
+                  target="_blank">
+                  <FontAwesomeIcon icon={faGithubSquare} size="2x"/>
+                </a>
+              </div>
+              <div className="iconpair text-center">
+                <a href="https://github.com/tardyparty"
+                  target="_blank">
+                  <h3> github </h3>
+                </a>
+              </div>
+            </div>
+            <div className="linkicon">
+              <div className="iconpair text-center">
+                <a href="https://gdoc.pub/doc/1VcD9YALwryRVHumeN0URlVQ1MKuuWwN3CFqE-Bg5VeM#?usp=sharing"
+                  target="_blank">
+                  <FontAwesomeIcon icon={faSmile} size="2x"/>
+                </a>
+              </div>
+              <div className="iconpair text-center">
+                <a href="https://gdoc.pub/doc/1VcD9YALwryRVHumeN0URlVQ1MKuuWwN3CFqE-Bg5VeM#?usp=sharing"
+                  target="_blank">
+                  <h3> resume </h3>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="main">
           <div className="projectdiv">
@@ -141,9 +185,32 @@ function App() {
             <p className="pMobile">
               <em className="blue titleMobile">fullstack</em>.<em className="green titleMobile">developer</em>
               <em className="pink titleMobile">()</em> <em className="yellow titleMobile"> {"{"} </em> <br></br>
-              &emsp;focused on developing new <br></br>
-              &emsp;skills in challenging environments. <br></br>
+              &emsp;focused on developing new skills in<br></br>
+              &emsp;challenging environments. <br></br>
               <em className="yellow titleMobile"> {"}"} </em> ;
+            </p>
+            <p className="pMobile">
+              <em className="pink bioMobileText"> class </em> <em className="blue bioMobileText"> TechnicalSkills </em>
+              = <em className="green bioMobileText"> function</em> <em className="pink bioMobileText">() </em> 
+              <em className="yellow bioMobileText">{"{"}</em> <br></br>
+              &emsp;<em className="green bioMobileText">return </em> <em className="pink bioMobileText">(</em><br></br>
+              &emsp;&emsp;<em className="orange bioMobileText">languages</em> : <em className="purple bioMobileText"> [ </em><br></br>
+              &emsp;&emsp;&emsp;Javascript, <br></br>
+              &emsp;&emsp;&emsp;HTML / CSS, <br></br>
+              &emsp;&emsp;&emsp;Python <br></br>
+              &emsp;&emsp;<em className="purple bioMobileText">]</em> , <br></br>
+              &emsp;&emsp;<em className="orange bioMobileText">frameworks</em> : <em className="purple bioMobileText"> [ </em><br></br>
+              &emsp;&emsp;&emsp;React, <br></br>
+              &emsp;&emsp;&emsp;Node, <br></br>
+              &emsp;&emsp;&emsp;Express, <br></br>
+              &emsp;&emsp;&emsp;Mongoose <br></br>
+              &emsp;&emsp;<em className="purple bioMobileText">]</em> , <br></br>
+              &emsp;&emsp;<em className="orange bioMobileText">databases</em> : <em className="purple bioMobileText"> [ </em><br></br>
+              &emsp;&emsp;&emsp;MongoDB, <br></br>
+              &emsp;&emsp;&emsp;MySQL <br></br>
+              &emsp;&emsp;<em className="purple bioMobileText">]</em><br></br>
+              &emsp;<em className="purple bioMobileText">)</em><br></br>
+              <em className="yellow bioMobileText">{"}"}</em>;
             </p>
           </div>
         </div>
