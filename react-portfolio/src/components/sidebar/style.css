@@ -13,24 +13,19 @@
 }
 
 .sidebar {
+    display: flex;
     background: white;
     flex: 1;
-    position: relative;
+    align-items: center;
+    justify-content: center;
 }
 
-.icons {
-    margin: auto;
-    width: 100%;
-    position: absolute;
-    top: 35%;
+.linkicon {
+    margin-top: 25px;
 }
 
 .linkicon h3 {
     color: #f049da;
-}
-
-.iconpair {
-    margin-top: 10px;
 }
 
 .iconpair:hover {
@@ -39,17 +34,26 @@
 
 @media only screen and (max-width: 600px) {
     .sidebar {
-        max-height: 10vh;
+        /* max-height: 10vh; */
+        /* justify-content: space-evenly; */
+        min-height: 12vh;
+        align-items: center;
     }
 
     .icons {
         display: none;
     }
 
+    .linkicon {
+        margin-top: 8px;
+    }
+
     .iconsMobile {
         display: flex;
-        margin: 2vh auto;
-        /* top: 50%; */
+        width: 100%;
+        min-height: 100%;
+        justify-content: space-evenly;
+        /* align-items: center; */
     }
 
     .iconsMobile a {
@@ -60,11 +64,6 @@
     .iconsMobile a:hover {
         text-decoration: none;
         color: #f049da;
-    }
-
-    .iconpair {
-        flex: 1;
-        margin: 0 30px;
     }
 
     .iconpair h3 {
