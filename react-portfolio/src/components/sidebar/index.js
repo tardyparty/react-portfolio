@@ -101,13 +101,13 @@ const Sidebar = function() {
             {/* Resume */}
             <div className="linkicon">
               <div className="iconpair text-center">
-                <a href="https://gdoc.pub/doc/1VcD9YALwryRVHumeN0URlVQ1MKuuWwN3CFqE-Bg5VeM#?usp=sharing"
+                <a href="https://docs.google.com/document/d/e/2PACX-1vTfZG8jJWkSD6vy7R8oG65p5wi1AvrW8tkmMaMlydludEI4MJTMGKDJgR1Zysynu8P0CyIk8Ma66Xf7/pub"
                   target="_blank">
                   <FontAwesomeIcon icon={faSmile} size="2x"/>
                 </a>
               </div>
               <div className="iconpair text-center">
-                <a href="https://gdoc.pub/doc/1VcD9YALwryRVHumeN0URlVQ1MKuuWwN3CFqE-Bg5VeM#?usp=sharing"
+                <a href="https://docs.google.com/document/d/e/2PACX-1vTfZG8jJWkSD6vy7R8oG65p5wi1AvrW8tkmMaMlydludEI4MJTMGKDJgR1Zysynu8P0CyIk8Ma66Xf7/pub"
                   target="_blank">
                   <h3> resume </h3>
                 </a>
