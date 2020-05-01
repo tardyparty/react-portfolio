@@ -6,7 +6,7 @@
     background: #2b2d29;
     flex: 3;
     max-height: 100vh;
-    overflow: visible;
+    overflow: scroll;
 }
 
 .bioFunction {
@@ -33,13 +33,13 @@
     }
 
     .nameMobile {
-        font-size: 30px;
+        font-size: 35px;
         margin-top: 5px;
     }
 
     .pMobile {
         width: 70vw;
         margin-left: 15vw;
-        font-size: 14px;
+        font-size: 16px;
     }
 }

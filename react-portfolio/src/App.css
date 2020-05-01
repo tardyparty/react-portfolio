@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .App {
     background: #3b3d39;
     min-width: 100vw;

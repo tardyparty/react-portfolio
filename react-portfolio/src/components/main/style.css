@@ -11,25 +11,25 @@
 }
 
 .projectdiv {
-    max-height: 100vh;
+    height: 100vh;
     overflow: scroll;
 }
 
 .project {
-    position: relative;
+    display: flex;
+    flex-direction: column;
     width: 90%;
-    height: 350px;
+    /* height: 350px; */
     background: black;
     margin: 4% auto;
     color: white;
-    padding: 3%;
+    padding: 2%;
     font-size: 28pt;
+    align-items: center;
 }
 
-.projectLinks {
-    position: absolute;
-    bottom: 0;
-    right: 2%;
+.thisProjectTitle {
+    width: 100%;
 }
 
 .linkClass {
@@ -46,8 +46,65 @@
     color: #f049da;
 }
 
+.projectContent {
+    display: flex;
+}
+
+.smallContent {
+    flex: 1;
+    padding: 10px;
+}
+
+.smallTitle {
+    font-size: 18pt;
+}
+
+.about {
+    font-size: 14pt;
+}
+
+.divider {
+    min-height: 35px;
+}
+
 @media only screen and (max-width: 600px) {
-    .projectdiv {
-        overflow: auto;
+    .projectsTitle {
+        font-size: 30px;
     }
+
+    .project {
+        font-size: 16px;
+    }
+
+    .projectContent {
+        display: block;
+    }
+
+    .thisProjectTitle,
+    .linkClass {
+        font-size: 20px;
+    }
+
+    .thisProjectTitle {
+        height: 20px;
+        width: auto;
+    }
+
+    .projectLinks {
+        height: 20px;
+        width: 100%;
+    }
+
+    .smallTitle {
+        font-size: 18px;
+    }
+
+    .smallContent {
+        font-size: 16px;
+    }
+
+    .about {
+        font-size: 16px;
+    }
+
 }
